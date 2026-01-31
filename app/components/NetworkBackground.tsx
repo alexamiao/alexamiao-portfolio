@@ -43,7 +43,7 @@ export default function NetworkBackground() {
           opacity: 0.45,
           width: 1,
         },
-        move: { enable: true, speed: 1.2, outModes: { default: "out" } },
+        move: { enable: true, speed: 1.2, outModes: { default: "out" as const} },
         size: { value: { min: 2.5, max: 4 } },
       },
     }),
