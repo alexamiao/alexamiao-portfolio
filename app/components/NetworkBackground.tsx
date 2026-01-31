@@ -23,7 +23,7 @@ export default function NetworkBackground() {
         events: {
           onHover: { enable: true, mode: "repulse" },  // spread away from cursor
           onClick: { enable: true, mode: "push" },     // click adds particles (optional)
-          resize: true,
+          resize: { enable: true },
         },
         modes: {
           repulse: { distance: 240, duration: 0.4 },
