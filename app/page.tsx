@@ -609,7 +609,7 @@ export default function Page() {
 
             {/* BOTTOM (3/5-ish): 3 paragraphs */}
             <div className="text-left">
-              <h3 className="mt-18 mb-5 text-2xl md:text-4xl font-semibold text-[#C8A9D2]">
+              <h3 className="mt-18 mb-5 text-2xl md:text-3xl font-semibold text-[#C8A9D2]">
                 The story behind it
               </h3>
               <div className="max-w-none space-y-6 text-lg md:text-xl leading-8 text-ink-secondary">
@@ -627,7 +627,7 @@ export default function Page() {
                   data-driven insights.
                 </p>
 
-                <h3 className="mt-16 mb-5 text-right pr-9 text-2xl md:text-4xl font-semibold text-[#C8A9D2]">
+                <h3 className="mt-16 mb-5 text-right pr-9 text-2xl md:text-3xl font-semibold text-[#C8A9D2]">
                   Our mission
                 </h3>
 
