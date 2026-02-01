@@ -17,12 +17,12 @@ export default function Page() {
 
         {/* Hero content */}
         <div className="relative z-10 flex h-full flex-col items-center justify-center text-center px-4">
-          <h1 className="text-5xl font-extrabold text-ink-primary">
+          <h1 className="text-2xl md:text-5xl font-extrabold text-ink-primary">
             Alexa Miao
           </h1>
 
           {/* ✅ FIX 1: constrain width so text wraps nicely */}
-          <p className="mt-4 max-w-3xl text-lg font-medium text-ink-primary leading-7">
+          <p className="mt-4 max-w-3xl text-base md:text-lg font-medium text-ink-primary leading-7">
             Hi there 👋, I'm Junyi Miao (I go by Alexa). I’m a{" "}
             <span className="font-bold text-brand-600">data scientist</span> currently pursuing an{" "}
             <span className="font-bold text-brand-700">MS in Information Systems</span>. I focus on
@@ -105,7 +105,7 @@ export default function Page() {
           <a
             href="#about"
             aria-label="Scroll to About"
-            className="mt-16 flex h-14 w-14 items-center justify-center rounded-full border border-slate-300 text-2xl leading-none font-light text-slate-500 transition hover:bg-brand-100 hover:text-brand-600"
+            className="mt-16 flex h-12 w-12 items-center justify-center rounded-full border border-slate-300 text-2xl leading-none font-light text-slate-500 transition hover:bg-brand-100 hover:text-brand-600"
           >
             ↓
           </a>
@@ -113,7 +113,7 @@ export default function Page() {
       </section>
 
       <section id="about" className="w-full">
-        <div className="grid w-full md:grid-cols-[2fr_3fr] h-[55vh]">
+        <div className="grid w-full md:grid-cols-[2fr_3fr]">
           {/* Left: full photo */}
           <div className="relative min-h-[45vh] md:min-h-[55vh]">
             <Image
@@ -130,7 +130,7 @@ export default function Page() {
           {/* Right: colored background + text */}
           <div className="bg-brand-400/35 text-ink-primary px-10 py-14 md:pl-14 md:pr-20 md:py-18">
 
-            <div className="mt-8 space-y-6 text-lg font-medium leading-relaxed text-ink-secondary">
+            <div className="mt-8 space-y-6 text-base md:text-lg font-medium leading-relaxed text-ink-secondary">
               <p className="text-xl font-semibold text-brand-600">
                 Hi, I’m Alexa.
               </p>
@@ -162,7 +162,7 @@ export default function Page() {
         <div className="mx-auto max-w-6xl px-6 py-20">
           {/* Header */}
           <div className="text-center">
-            <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight text-ink-primary">
+            <h2 className="text-2xl md:text-4xl font-extrabold tracking-tight text-ink-primary">
               Portfolio
             </h2>
             <p className="mt-2 text-base md:text-lg text-ink-secondary">
@@ -542,7 +542,6 @@ export default function Page() {
             {/* TOP (2/5-ish): photo + title/buttons */}
             <div
               className="grid items-center gap-12 md:grid-cols-2"
-              style={{ height: "40vh" }}
             >
               {/* Left: photo with “shadow layer” */}
               <div className="relative">
@@ -565,7 +564,7 @@ export default function Page() {
 
               {/* Right: title + buttons */}
               <div className="text-left">
-                <h2 className="text-3xl md:text-4xl font-extrabold text-ink-primary leading-tight">
+                <h2 className="text-2xl md:text-4xl font-extrabold text-ink-primary leading-tight">
                   South Bay Coastal <br />
                   Environmental Intelligence <br />
                   Initiative (SB-CEII)
@@ -600,7 +599,7 @@ export default function Page() {
 
                   </a>
 
-                  <p className="mt-5 text-xl md:text-lg text-ink-muted">
+                  <p className="mt-5 text-lg md:text-lg text-ink-muted">
                     Supported by Heal the Bay Adopt-A-Beach • Data-driven insights
                   </p>
 
@@ -609,11 +608,11 @@ export default function Page() {
             </div>
 
             {/* BOTTOM (3/5-ish): 3 paragraphs */}
-            <div style={{ minHeight: "60vh" }} className="text-left">
+            <div className="text-left">
               <h3 className="mt-18 mb-5 text-2xl md:text-4xl font-semibold text-[#C8A9D2]">
                 The story behind it
               </h3>
-              <div className="max-w-none space-y-6 text-xl md:text-xl leading-8 text-ink-secondary">
+              <div className="max-w-none space-y-6 text-lg md:text-xl leading-8 text-ink-secondary">
                 <p>
                   I founded the South Bay Coastal Environmental Intelligence Initiative
                   (<span className="font-semibold text-[#C8A9D2]">SB-CEII</span>), a community-led program that conducts recurring,
