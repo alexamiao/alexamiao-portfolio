@@ -526,7 +526,7 @@ export default function Page() {
                 </div>
 
                 <ul className="mt-4 space-y-2 text-sm md:text-base leading-7 text-ink-secondary">
-                  <li>Relevant Coursework: Advanced Mathematics C, Artificial Intellligence, Intercultural Communication, Critical Thinking and Innovation</li>
+                  <li>Relevant Coursework: Advanced Mathematics C, Artificial Intelligence, Intercultural Communication, Critical Thinking and Innovation</li>
                 </ul>
               </div>
 
