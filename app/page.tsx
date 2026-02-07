@@ -538,6 +538,12 @@ export default function Page() {
 
       <section id="sb-ceii" className="w-full px-6 py-24">
         <div className="mx-auto max-w-6xl">
+          {/* Section title */}
+          <h3 className="mb-10 text-xl md:text-2xl font-bold text-ink-primary">
+            Public Service
+          </h3>
+
+          {/* SB-CEII content starts here */}
           <div className="grid gap-14">
             {/* TOP (2/5-ish): photo + title/buttons */}
             <div
