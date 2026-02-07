@@ -539,7 +539,7 @@ export default function Page() {
       <section id="sb-ceii" className="w-full px-6 py-24">
         <div className="mx-auto max-w-6xl">
           {/* Section title */}
-          <h3 className="mb-14 text-xl md:text-2xl font-bold text-ink-primary">
+          <h3 className="mb-16 text-xl md:text-2xl font-bold text-ink-primary">
             Public Service
           </h3>
 
