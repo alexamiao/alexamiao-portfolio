@@ -138,7 +138,7 @@ export default function Page() {
 
               <p>
                 I specialize in{" "}
-                <span className="font-bold text-brand-700">database management</span> and
+                <span className="font-bold text-brand-700">machine learning pipelines</span> and
                 business intelligence systems that support strategic decisions.
                 If you’re looking for someone to design{" "}
                 <span className="font-bold text-brand-700">scalable data solutions</span>{" "}
