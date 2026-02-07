@@ -539,7 +539,7 @@ export default function Page() {
       <section id="sb-ceii" className="w-full px-6 py-24">
         <div className="mx-auto max-w-6xl">
           {/* Section title */}
-          <h3 className="mb-10 text-xl md:text-2xl font-bold text-ink-primary">
+          <h3 className="mb-14 text-xl md:text-2xl font-bold text-ink-primary">
             Public Service
           </h3>
 
@@ -615,7 +615,7 @@ export default function Page() {
 
             {/* BOTTOM (3/5-ish): 3 paragraphs */}
             <div className="text-left">
-              <h3 className="mt-18 mb-5 text-2xl md:text-3xl font-semibold text-[#C8A9D2]">
+              <h3 className="mt-12 mb-5 text-2xl md:text-3xl font-semibold text-[#C8A9D2]">
                 The story behind it
               </h3>
               <div className="max-w-none space-y-6 text-lg md:text-xl leading-8 text-ink-secondary">
