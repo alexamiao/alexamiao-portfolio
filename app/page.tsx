@@ -18,7 +18,7 @@ export default function Page() {
         {/* Hero content */}
         <div className="relative z-10 flex h-full flex-col items-center justify-center text-center px-4">
           <h1 className="text-2xl md:text-5xl font-extrabold text-ink-primary">
-            Alexa Miao
+            Junyi Miao
           </h1>
 
           {/* ✅ FIX 1: constrain width so text wraps nicely */}
