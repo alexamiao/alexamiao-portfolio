@@ -52,7 +52,7 @@ export default function Navbar() {
           href="#home"
           className="text-xl md:text-2xl font-semibold tracking-tight text-[#C8A9D2] transition hover:opacity-85"
         >
-          AM
+          JM
         </a>
 
         {/* Right nav */}
